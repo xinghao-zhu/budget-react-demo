@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# budge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 目的
+本次demo是为了学习如何使用redux
 
-## Available Scripts
+## 技术栈
+- react
+- redux
+- semantic-ui-react
+- Saga
 
-In the project directory, you can run:
+## 实现效果
 
-### `npm start`
+1. 添加收入支出
+    添加所有的收入支出，包括收入支出的名称，金额，是收入还是支出等，点击 OK button, 将数据添加到列表中,清空所有输入框
+2. 支出收入列表
+    支出收入列表，包括收入支出的名称，金额，是收入还是支出等，收入支出根据收入支出的外框来判断，收入为绿色，支出为红色
+3. 支出收入总和
+    收入支出总和根据收入支出的比例来计算
+4. 支出收入比例
+    支出收入比例，包括收入总和，支出总和，收入支出总和根据收入支出列表的金额来计算
+5. 支出收入列表的修改
+    支出收入列表的修改，包括收入支出的名称，金额，是收入还是支出等，点击收入支出列表右侧的 修改 button, 将数据修改到列表中
+6. 支出收入列表的删除
+    支出收入列表的删除，点击收入支出列表右侧的 删除 button, 将数据从列表中删除
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+UI图：
+![img.png](img.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
